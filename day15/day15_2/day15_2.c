@@ -13,6 +13,4 @@ int main()
     lcm= (n1*n2)/gcd;
     printf("%d\n",lcm);
     return 0;
-
-
 }
