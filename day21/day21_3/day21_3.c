@@ -53,6 +53,7 @@ int checkArmstrongNumber(int number)
         originalNumber /= 10;
         ++n;
     }
+    originalNumber = number;
     while(originalNumber !=0)
     {
         remainder = originalNumber%10;
